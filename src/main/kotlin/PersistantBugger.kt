@@ -6,7 +6,7 @@ fun main() {
     */
 
     var num = 999
-    if (!(num.toString().length > 1)) print(0) else {
+    if (num.toString().length <= 1) print(0) else {
         var count = 0
 
         while (true) {
