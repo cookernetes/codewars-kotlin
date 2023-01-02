@@ -5,7 +5,7 @@ fun main() {
     * 4 --> 0 (because 4 is already a one-digit number)
     */
 
-    var num = 999
+    var num = 39
     if (num.toString().length <= 1) print(0) else {
         var count = 0
 
